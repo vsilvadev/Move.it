@@ -12,6 +12,5 @@ export function Profile() {
                 </p>
             </div>
         </div>
-        
     );
 }
