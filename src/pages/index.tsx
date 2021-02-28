@@ -1,5 +1,5 @@
 import { GetServerSideProps } from "next";
-
+import {useState} from "react";
 import { CompletedChallenges } from "../components/CompletedChallenges";
 import { Countdown } from "../components/Countdown";
 import { ExperienceBar } from "../components/ExperienceBar";
@@ -19,19 +19,43 @@ interface HomeProps {
   challengesCompleted: number;
 }
 
-export default function Home(props) {
+export default function Home(props: HomeProps) {
+  const [dark, setDark] = useState(false);
+
+  function darkMode() {
+    const html = document.querySelector('html');
+    
+    html.classList.toggle('dark-mode');
+
+    if (dark) {
+      setDark(false);
+    } else {
+      setDark(true);
+    }
+  }
+
   return (
     <ChallengesProvider 
     level={props.level}
     currentExperience={props.currentExperience}
     challengesCompleted={props.challengesCompleted}
     >
+
+        <div className={styles.header}>
+          <img src="logo-full.svg" alt=""/>
+          <button type="button" id="switch" className={styles.darkMode} onClick={darkMode}
+          > 
+            {dark ? <img src="light.png" className={styles.headerImg}/> : <img src="/dark.png" className={styles.headerImg}/> }
+          </button>
+        </div>
+
       <div className={styles.container}>
         <Head>
           <title>Início | Move.it</title>
         </Head>
 
         <ExperienceBar />
+        
 
       <CountdownProvider>
         <section>
