@@ -9,8 +9,9 @@
   • <a href="#title">Title</a> <br>
   • <a href="#project_status">Project Status</a> <br>
   • <a href="#features">Features</a> <br>
+  • <a href="#future-features">Future Features</a> <br>
   • <a href="#application">The Application</a> <br>
-  • <a href="#how-to">How to run</a> <br>
+  • <a href="#how-to">How To Run</a> <br>
   • <a href="#tech">Technologies</a> <br>
   • <a href="#author">Author</a> <br>
 
@@ -24,7 +25,7 @@
 - [x] Experience bar
 - [x] Dark Mode
 
-<h2>📌 Future Features<a name="features"></a></h2>
+<h2>📌 Future Features<a name="future-features"></a></h2>
 
 - [ ] Theme cookie
 - [ ] Authentication with GitHub
@@ -71,7 +72,7 @@ $ yarn dev
 </pre>
 
 <h4>See the application running</h4>
-<p>The app will start at port:3000 - go to http://localhost:3000</p
+<p>The app will start at port:3000 - go to http://localhost:3000</p>
 
 <h4>Deployed application</h4>
 <p>https://move-it-rose.vercel.app/</p>
