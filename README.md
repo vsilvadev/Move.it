@@ -1,46 +1,97 @@
-# Getting Started with Create React App
+<div align="center">
+<a name="title"></a>
+<img src="https://github.com/vsilvadev/move-it/blob/main/git_files/logo.svg" alt="Move.it Logo">
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">Move.it is a platform that serves to reinforce the care that people should have when spending a lot of time on the computer through physical exercises / stretches</p>
 
-## Available Scripts
+<h2>📋 Summary</h2>
+  • <a href="#title">Title</a> <br>
+  • <a href="#project_status">Project Status</a> <br>
+  • <a href="#features">Features</a> <br>
+  • <a href="#future-features">Future Features</a> <br>
+  • <a href="#application">The Application</a> <br>
+  • <a href="#how-to">How To Run</a> <br>
+  • <a href="#tech">Technologies</a> <br>
+  • <a href="#author">Author</a> <br>
 
-In the project directory, you can run:
+<h2>🚀 Project Status<a name="project_status"></a></h2>
+✅ Completed
 
-### `yarn start`
+<h2>💡 Features<a name="features"></a></h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [x] Start and stop a cycle
+- [x] Finish or fail a challenge
+- [x] Experience bar
+- [x] Dark Mode
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h2>📌 Future Features<a name="future-features"></a></h2>
 
-### `yarn test`
+- [ ] Theme cookie
+- [ ] Authentication with GitHub
+- [ ] Ranking / Leaderboard
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2>🖥 The Application<a name="application"></a></h2>
+<img src="https://github.com/vsilvadev/move-it/blob/main/git_files/app.gif" alt="Running Application">
 
-### `yarn build`
+<h2>❗ How to run<a name="how-to"></a></h2>
+<h3>Prerequisites</h3>
+Before starting, you will need to have the following tools installed on your machine<br><br>
+<a href="https://git-scm.com">
+<img src="https://img.shields.io/static/v1?label=Install&message=GIT&color=f14e32&style=for-the-badge"/>
+</a>
+<br>
+<a href="https://nodejs.org">
+<img src="https://img.shields.io/static/v1?label=Install&message=NODE.JS&color=43853d&style=for-the-badge"/>
+</a>
+<br>
+<a href="https://classic.yarnpkg.com/en/docs/install/#windows-stable">
+<img src="https://img.shields.io/static/v1?label=Install&message=YARN&color=2188b6&style=for-the-badge"/>
+</a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3>Running the project</h3>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h4>Clone this repository</h4>
+<pre>
+$ git clone https://github.com/vsilvadev/move-it.git
+</pre>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h4>Access the project folder in the terminal/cmd</h4>
+<pre>
+$ cd move-it
+</pre>
 
-### `yarn eject`
+<h4>Install the dependencies</h4>
+<pre>
+$ yarn 
+</pre>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<h4>Run the application</h4>
+<pre>
+$ yarn dev
+</pre>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h4>See the application running</h4>
+<p>The app will start at port:3000 - go to http://localhost:3000</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<h4>Deployed application</h4>
+<p>https://move-it-rose.vercel.app/</p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<h2>🛠 Technologies<a name="tech"></a></h2>
+The following tools were used in the construction of the project: <br><br>
 
-## Learn More
+• Yarn <br>
+• VSCode <br>
+• TypeScript <br>
+• NodeJS <br>
+• ReactJS <br>
+• NextJS <br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h2>⭐ Author<a name="author"></a></h2>
+<h3>Vitor Silva</h3> 
+<img src="https://avatars3.githubusercontent.com/u/60434378?s=400&u=f3497d52861de514e8a1973fd3dce8132ed7aa8d&v=4" alt="Author" width="100" height="100">
+Get in touch: <br>
+💼 <a href="https://www.linkedin.com/in/vitor-andre-batista-silva/">LinkedIn</a><br>
+📧 <a href="mailto:vitorabsilva10@gmail.com">Email</a><br>
+🚀 <a href="https://app.rocketseat.com.br/me/function">Rocketseat</a>
