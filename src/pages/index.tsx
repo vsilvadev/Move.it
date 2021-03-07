@@ -23,21 +23,21 @@ interface HomeProps {
 
 export default function Home(props: HomeProps) {
   const [darkTheme, setDark] = useState(props.darkTheme);
-  const [counter, setCounter] = useState(0);
+  // const [counter, setCounter] = useState(0);
 
   useEffect(() => {
     Cookies.set("darkTheme", String(darkTheme));
 
-    const html = window.document.querySelector("html");
+    // const html = window.document.querySelector("html");
 
-    if (darkTheme === true && counter === 0 ) {
-        html.classList.toggle('dark-mode');
-        setDark(true)
-        setCounter(1);
-      } else if (darkTheme === false && counter === 0){
-        setDark(false);
-        setCounter(1);
-      }
+    // if (darkTheme === true && counter === 0 ) {
+    //     html.classList.toggle('dark-mode');
+    //     setDark(true)
+    //     setCounter(1);
+    //   } else if (darkTheme === false && counter === 0){
+    //     setDark(false);
+    //     setCounter(1);
+    //   }
   }, [darkTheme])
 
   function darkMode() {
